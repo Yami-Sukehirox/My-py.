@@ -27,10 +27,16 @@ print (f"The distance between my workplace and home is {distance} km.")
 
 
 #boolean
-Is_student = True
+Is_student = False
 Is_employed = False
 My_name_is_Lian = True
 
 print (f"Are you a student? {Is_student}.")
 print (f"Are you employed? {Is_employed}.") 
 print (f"Is my name Lian? {My_name_is_Lian}.")
+
+
+if Is_student:
+    print("Yes, I am a student.")   
+else:
+    print("No, I am not a student.")
