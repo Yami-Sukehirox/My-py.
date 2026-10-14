@@ -1,4 +1,5 @@
 #Madlibs game
+#This game is filling in the blanks with words to create a funny story.
 
 adjective1 = input("Enter an adjective: ")
 noun1 = input("Enter a noun: ")
@@ -9,4 +10,4 @@ verb1 = input("Enter a verb: ")
 print(f"Today we go too {adjective1} plaza.")
 print(f"I saw a {noun1}.")
 print(f"The {noun1} was so {adjective2} that is so {adjective3}.")
-print(f"The{noun1} is {verb1}.")
+print(f"The {noun1} is {verb1}.")
