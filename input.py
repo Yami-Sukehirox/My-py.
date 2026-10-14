@@ -25,4 +25,4 @@ price = float(input(f"What is the price?: "))
 quantity = int(input(f"How many would you like to buy?: "))
 
 Amount = price * quantity
-print(f"The total amount for {quantity} {item}(s) is {Amount}.")
+print(f"The total amount for {quantity} {item}(s) is ${Amount}.")
