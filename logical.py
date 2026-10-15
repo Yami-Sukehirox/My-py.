@@ -7,7 +7,7 @@ if temp > 30 or temp < 0 or is_raining:
   print("The event is ekis")
 else:
     print("The event is on the goo")    
------------------------------------------------------
+
 temp = 25
 is_sunny = False
 
