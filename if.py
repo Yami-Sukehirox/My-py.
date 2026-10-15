@@ -20,3 +20,10 @@ elif food == 'N':
     print("ohh sad")
 else:
     print("NGEEEE")        
+
+full_name = input("Enter your name? ")
+
+if full_name == "":
+    print("You did not type")
+else:
+    print(f"Hii {full_name}")    
