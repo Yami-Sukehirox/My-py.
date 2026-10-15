@@ -3,13 +3,14 @@
 converter = float(input("Enter your weight: "))
 unit = input("Kilograms or Pounds? (K or L): ")
 
-if converter == "K":
+if unit == "K":
     converter = converter * 2.205
     unit = "Lbs."
-elif converter == "L":
+    print(f"Your weight is {round(converter, 2)} {unit}")
+elif unit == "L":
     converter = converter / 2.205
-    unit = "kgs."
+    unit = "Kgs."
+    print(f"Your weight is {round(converter, 2)} {unit}")
 else:
-    print(f"{unit} the choice is not valid!")    
+    print(f"{unit} choice is not valid!")    
 
-print(f"Your weight is {converter} {unit}")
