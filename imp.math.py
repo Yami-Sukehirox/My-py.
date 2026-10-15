@@ -10,8 +10,14 @@
 
 import math
 
-radius = float(input("Enter the radius of circle: "))
+#radius = float(input("Enter the radius of circle: "))
 
-circumference = 2 * math.pi * radius
+#circumference = 2 * math.pi * radius
 
-print (f"The Circumference of a Circle is {circumference}.")
+#print (f"The Circumference of a Circle is {round(circumference, 2)}cm")
+
+radius = float(input(f"Enter the radius of circle: "))
+
+area = math.pi * pow (radius, 2)
+
+print (f"The Area of a Circe is {round(area, 2)}cm^2")
