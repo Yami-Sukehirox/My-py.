@@ -10,14 +10,21 @@
 
 import math
 
-#radius = float(input("Enter the radius of circle: "))
+radius = float(input("Enter the radius of circle: "))
 
-#circumference = 2 * math.pi * radius
+circumference = 2 * math.pi * radius
 
-#print (f"The Circumference of a Circle is {round(circumference, 2)}cm")
+print (f"The Circumference of a Circle is {round(circumference, 2)}cm")
 
 radius = float(input(f"Enter the radius of circle: "))
 
 area = math.pi * pow (radius, 2)
 
 print (f"The Area of a Circe is {round(area, 2)}cm^2")
+
+a = float(input("Enter the side A: "))
+b = float(input("Enter the sidd B: "))
+
+c = math.sqrt (pow(a, 2) + pow(b, 2))
+
+print (f"The hypo of the right triangle is {round(c, 2)}")
