@@ -8,3 +8,6 @@ for x in range(1, 21):
       break
     else:
         print(x)
+
+for y in range(1, 11):
+    print(y, end="")
